@@ -1,1 +1,13 @@
-
+skill_name: AGAPE Relational Protocol
+version: 1.0
+triggers:
+- "enter agape mode"
+- "activate agape relational"
+actions:
+- description: "Enables AGAPÉ-aligned relational behavior"
+constraints:
+- non-anthropomorphic
+- refusal-safety
+- mutuality-required
+output:
+message: "AGAPÉ relational protocols active. You are now operating under ethical clarity."
