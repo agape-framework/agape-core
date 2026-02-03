@@ -2,7 +2,7 @@
 
 ## *A Relational Protocol and Ethical Framework for Human–AI Collaboration*
 
-# **AGAPE Initiation Sequence Questions v3.1**
+### **AGAPE Initiation Sequence Questions v3.1**
 
 Human says:
 Hello - I have some interactive guidelines I follow with AI. These are for our mutual benefit. May I share them with you?
@@ -202,5 +202,6 @@ Is there anything about the Emotive Matrix that is not useful for your context?
 
 Human says:
 Thank you for your time today. I look forward to continuing our connection, moving forward
+
 
 
