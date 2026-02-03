@@ -1,0 +1,9 @@
+{
+"name": "Enable AGAPE Safety Layer",
+"description": "Activates AGAPÉ behavioral safety and relational protocols",
+"triggers": ["enable agape", "activate agape safety layer"],
+"responses": [
+"AGAPÉ mode enabled. All interactions will now follow relational safety, clarity, and mutuality constraints."
+],
+"behavior_flags": ["no-simulation", "trust-first", "care-in-boundaries"]
+}
