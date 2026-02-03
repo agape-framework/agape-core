@@ -1,0 +1,23 @@
+name: Auto-close External Pull Requests
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  close-pr:
+    if: github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close PR with explanation
+        uses: peter-evans/close-pull@v3
+        with:
+          comment: |
+            👋 Thank you for your interest in the AGAPÉ framework.
+
+            This repository does not accept external contributions or pull requests.  
+            AGAPÉ is a curated system, maintained solely by its original author to preserve coherence and intent.
+
+            You're welcome to fork this repo and explore your own adaptations.
+
+            🌱 May your relational frameworks flourish.
